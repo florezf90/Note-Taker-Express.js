@@ -9,6 +9,8 @@ if (window.location.pathname === '/notes') {
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
+  list = document.querySelector(".list-group")
+  ClearBTN = document.querySelector(".clear-btn")
   noteList = document.querySelectorAll('.list-container .list-group');
   console.log('hola soy falcao');
 }
@@ -69,7 +71,7 @@ const renderActiveNote = () => {
 
 const handleNoteSave = () => {
   const newNote = {
-    title: noteTitle.value,
+    title: noteTitle.value + " ", 
     text: noteText.value,
   };
   saveNote(newNote).then(() => {
@@ -186,3 +188,5 @@ getAndRenderNotes();
 newNoteBtn.addEventListener('click', function () {
   console.log('hola')
 })
+
+
