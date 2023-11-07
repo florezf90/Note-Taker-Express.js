@@ -1,128 +1,131 @@
-# 11 Express.js: Note Taker
+<p><h1 align= "center" id="title">NOTE-TAKER-EXPRESS.JS </h1></p>
 
-## Your Task
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+<div style="text-align: center;">
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+[![linkedin](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=20&link=https://www.linkedin.com/in/luis-felipe-florez-98403123a/)](https://www.linkedin.com/in/luis-felipe-florez-98403123a/)  [![license](https://img.shields.io/badge/license-MIT-white?labelColor=green&style=for-the-badge&logo=license&logoColor=white&logoWidth=20&link=https://github.com/florezf90/PRO-README-generator/blob/main/LICENSE)](https://github.com/florezf90/PRO-README-generator/blob/main/LICENSE)   [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=Gmail&logoColor=white&logoWidth=20)](mailto:florezf90@gmail.com)
 
-## User Story
 
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
+</div>
 
-## Acceptance Criteria
 
-```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
-```
+  # 👩‍💻 About
 
-## Mock-Up
+The present application has been created with the sole reason of showcasing `BACK-END` code skills by building a server that connects to the front-end code, and saves data by pushing it to a DB.JSON file (Data Base) without using LocalStorage.
 
-The following GIF shows the web application's appearance and functionality:
+It's important to mention that most of the code in this project has been provided by Bootcamp class tutors, and my main responsibility was to build the server.js FIle that makes the `bridge` between Front-end and Back-end code.
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo.gif)
 
-## Getting Started
 
-On the back end, the application should include a `db.json` file that will be used to store and retrieve notes using the `fs` module.
+<details>
+  <summary align= "center"> 📊 Table of Contents </summary>
+  <ol>
+    <li>
+      <a>About The Project</a>
+        <li><a>Built With</a></li>
+    </li>
+    <li><a>Installation</a></li>
+    <li><a >Usage</a></li>
+    <li><a >Contributing and Contact</a></li>
+    <li><a >Acknowledgments</a></li>
+    <li><a >License</a></li>
+  </ol>
+</details>
 
-The following HTML routes should be created:
 
-* `GET /notes` should return the `notes.html` file.
 
-* `GET *` should return the `index.html` file.
 
-The following API routes should be created:
+---------
+# 💲Built With 
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+ List of any major frameworks/libraries used to design the project: 
 
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
 
-## Bonus
+* [![NODE.JS](https://img.shields.io/badge/NODE.JS-green?style=flat&logo=node.js&logoColor=white&logoWidth=21&link=https://nodejs.org/en)](https://nodejs.org/en)
 
-You haven’t learned how to handle DELETE requests, but this application offers that functionality on the front end. As a bonus, try to add the DELETE route to the application using the following guideline:
+* [![JavaScript](https://img.shields.io/badge/JavaScript-white?style=flat&logo=JavaScript&logoColor=yellow&logoWidth=21&link=https://www.w3schools.com/js/)](https://www.w3schools.com/js/)
 
-* `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+* [![CSS](https://img.shields.io/badge/CSS-blue?style=flat&link=https://www.w3schools.com/css/)](https://www.w3schools.com/css/)
 
-## Grading Requirements
+* [![BOOSTRAP](https://img.shields.io/badge/BOOSTRAP-purple?style=flat&link=https://getbootstrap.com/docs/5.3/getting-started/introduction/)](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+* [![EXPRESS.JS](https://img.shields.io/badge/EXPRESS.JS-Green?style=flat&link=https://expressjs.com/)](https://expressjs.com/)
 
-This Challenge is graded based on the following criteria:
+*  [![NPM INQUIRER](https://img.shields.io/badge/NPM%20INQUIRER-red?style=flat&logo=npm&logoColor=white&link=https://www.npmjs.com/package/inquirer)](https://www.npmjs.com/package/inquirer)
 
-### Technical Acceptance Criteria: 40%
+---------------------------------
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+# 🚀 Installation 
 
-  * Application front end must connect to an Express.js back end.
+1.First, to generate your own README, `git clone` the repo down to your local machine by running on the command line :
+ 
+      git clone git@github.com:florezf90/PRO-README-generator.git
 
-  * Application back end must store notes that have a unique id in a JSON file.
 
-  * Application must be deployed to Heroku.
+2.Second, initialize the node package and accept the defaults by running: 
+ 
+        npm init -y 
+ 
+   
+3.Then, run `npm install` to install the npm Inquirer package dependencies as specified in the `package.json`:
+   ```sh
+    npm install inquirer@8.2.4
+   ```
 
-### Deployment: 36%
 
-* Application deployed at live URL.
+   * NOTE : The [`inquirer`](https://www.npmjs.com/package/inquirer) used for this project is the 8.2.4 version. ( Click on the badge in the above section to get the documentation.).
 
-* Application loads with no errors.
+ -----------------------------
+ # 📖 Usage
 
-* Application GitHub URL submitted.
+  Once the repo and the NPM Inquirer has been installed, the application will start by running :
+  
+      node index.js
+   
+  It  will prompt from the command line the required inputs to personalize the README, once all of those are answered, the README file will be named 'ExampleREADME.md' and will be ready to use at the root of the repo based on the information provided.  
 
-* GitHub repository contains application code.
+  [![Video Placeholder](https://res.cloudinary.com/practicaldev/image/fetch/s--7yVSltAE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://user-images.githubusercontent.com/9840435/59461914-cbc18380-8e22-11e9-8567-87b43da950ac.png)](https://drive.google.com/file/d/13Cal3aBo52LphoFNixKfPSyzQ5L54q5r/view)
 
-### Application Quality: 11%
+  Note: click on the image to lauch a demo video.
 
-* Application console is free of errors.
+-------- 
 
-### Repository Quality: 13%
+# 📱 Contributing and Contact 
 
-* Repository has a unique name.
+If you have a suggestion that would make this better, don't hesitate to reach me out and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-* Repository follows best practices for file structure and naming conventions.
+ ✉️ mail: florezf90@gmail.com
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+ [![linkedin](https://img.shields.io/badge/linkedin-blue?style=flat&logo=linkedin&logoColor=white&logoWidth=20&link=https://www.linkedin.com/in/luis-felipe-florez-98403123a/)](https://www.linkedin.com/in/luis-felipe-florez-98403123a/)
 
-* Repository contains multiple descriptive commit messages.
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+ 💿 Demo: https://drive.google.com/file/d/13Cal3aBo52LphoFNixKfPSyzQ5L54q5r/view
 
-### Bonus: +10 Points
+----------------
+# 🏆 Acknowledgments 
 
-Fulfilling the following can add up to 10 points to your grade. Note that the highest grade you can achieve is still 100:
+  * README best practices: https://github.com/othneildrew/Best-README-Template#acknowledgments 
 
-* Application allows users to delete notes.
+  *  Badges basic information: https://shields.io/
 
-## Review
+  * Badges facilitator: https://badgesgenerator.com/
+  
+  * Markdown iconds: https://gist.github.com/rxaviers/7360908
 
-You are required to submit BOTH of the following for review:
+-----
 
-* The URL of the functional, deployed application.
+ # 🔒🔑 License
+ 
+Distributed under the MIT License. See LICENSE.txt for more information.
 
-* The URL of the GitHub repository, with a unique name and a README describing the project.
 
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## [🔝](#title)
+
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/luis-felipe-florez-98403123a/
+
+
+
+
