@@ -105,10 +105,7 @@ If you have a suggestion that would make this better, don't hesitate to reach me
 
  💿 Demo: https://note-taker-florezf90-b0510edfa865.herokuapp.com/notes
 
-----------------
-# 🏆 Acknowledgments 
 
-  * 
 -----
 
  # 🔒🔑 License
