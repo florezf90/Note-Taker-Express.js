@@ -57,36 +57,40 @@ It's important to mention that most of the code in this project has been provide
 
 # 🚀 Installation 
 
-1.First, to generate your own README, `git clone` the repo down to your local machine by running on the command line :
+
+💿 Deployment link: 
+
+This app can also be used in a local envirioment, this is how:
+
+
+For installation onto local machine, clone provided repository by following the next steps:
+
  
-      git clone git@github.com:florezf90/PRO-README-generator.git
+      git clone git@github.com:florezf90/Note-Taker-Express.js.git
 
 
 2.Second, initialize the node package and accept the defaults by running: 
  
-        npm init -y 
+        npm i
  
    
-3.Then, run `npm install` to install the npm Inquirer package dependencies as specified in the `package.json`:
-   ```sh
-    npm install inquirer@8.2.4
-   ```
+3.Then, run `node server.js` in order to get the successful log in the terminal with the corresponding localhost link to use the application.
 
-
-   * NOTE : The [`inquirer`](https://www.npmjs.com/package/inquirer) used for this project is the 8.2.4 version. ( Click on the badge in the above section to get the documentation.).
+![Video Placeholder](./public/assets/photos/Screenshot%202023-11-07%20183705.png)
 
  -----------------------------
  # 📖 Usage
 
   Once the repo and the NPM Inquirer has been installed, the application will start by running :
   
-      node index.js
+      node server.js
    
-  It  will prompt from the command line the required inputs to personalize the README, once all of those are answered, the README file will be named 'ExampleREADME.md' and will be ready to use at the root of the repo based on the information provided.  
+and it should return something like this:
 
-  [![Video Placeholder](https://res.cloudinary.com/practicaldev/image/fetch/s--7yVSltAE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://user-images.githubusercontent.com/9840435/59461914-cbc18380-8e22-11e9-8567-87b43da950ac.png)](https://drive.google.com/file/d/13Cal3aBo52LphoFNixKfPSyzQ5L54q5r/view)
 
-  Note: click on the image to lauch a demo video.
+![Video Placeholder](./public/assets/photos/sumadre.png)
+
+  
 
 -------- 
 
@@ -99,19 +103,12 @@ If you have a suggestion that would make this better, don't hesitate to reach me
  [![linkedin](https://img.shields.io/badge/linkedin-blue?style=flat&logo=linkedin&logoColor=white&logoWidth=20&link=https://www.linkedin.com/in/luis-felipe-florez-98403123a/)](https://www.linkedin.com/in/luis-felipe-florez-98403123a/)
 
 
- 💿 Demo: https://drive.google.com/file/d/13Cal3aBo52LphoFNixKfPSyzQ5L54q5r/view
+ 💿 Demo: 
 
 ----------------
 # 🏆 Acknowledgments 
 
-  * README best practices: https://github.com/othneildrew/Best-README-Template#acknowledgments 
-
-  *  Badges basic information: https://shields.io/
-
-  * Badges facilitator: https://badgesgenerator.com/
-  
-  * Markdown iconds: https://gist.github.com/rxaviers/7360908
-
+  * 
 -----
 
  # 🔒🔑 License
