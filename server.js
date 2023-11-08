@@ -86,7 +86,6 @@ function deleteNote(id, notesArray) {
     }
 }
 
-
 // API endpoint to delete a note by ID
 app.delete('/api/notes/:id', (req, res) => {
     deleteNote(req.params.id, allNotes);

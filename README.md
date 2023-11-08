@@ -58,7 +58,7 @@ It's important to mention that most of the code in this project has been provide
 # 🚀 Installation 
 
 
-💿 Deployment link: 
+💿 Deployment link: https://note-taker-florezf90-b0510edfa865.herokuapp.com/notes
 
 This app can also be used in a local envirioment, this is how:
 
@@ -103,7 +103,7 @@ If you have a suggestion that would make this better, don't hesitate to reach me
  [![linkedin](https://img.shields.io/badge/linkedin-blue?style=flat&logo=linkedin&logoColor=white&logoWidth=20&link=https://www.linkedin.com/in/luis-felipe-florez-98403123a/)](https://www.linkedin.com/in/luis-felipe-florez-98403123a/)
 
 
- 💿 Demo: 
+ 💿 Demo: https://note-taker-florezf90-b0510edfa865.herokuapp.com/notes
 
 ----------------
 # 🏆 Acknowledgments 
