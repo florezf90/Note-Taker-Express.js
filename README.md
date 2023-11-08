@@ -15,7 +15,7 @@ The present application has been created with the sole reason of showcasing `BAC
 
 It's important to mention that most of the code in this project has been provided by Bootcamp class tutors, and my main responsibility was to build the server.js FIle that makes the `bridge` between Front-end and Back-end code.
 
-
+`NOTE: PLEASE `  refer to the server.js file in order to have a deeper understanding of the code implemented, there are multiple comments to improve code clarity.
 
 <details>
   <summary align= "center"> 📊 Table of Contents </summary>
@@ -76,8 +76,8 @@ For installation onto local machine, clone provided repository by following the 
    
 3.Then, run `node server.js` in order to get the successful log in the terminal with the corresponding localhost link to use the application.
 
-![Video Placeholder](./public/assets/photos/Screenshot%202023-11-07%20183705.png)
-
+![web demo photo](./public/assets/photos/Screenshot%202023-11-07%20183705.png)
+  
  -----------------------------
  # 📖 Usage
 
